@@ -1,0 +1,64 @@
+
+/*packages*/
+.packages{
+    background-color:rgb(223, 223, 223);
+  }
+  
+  .packages .box-container{
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap:0.5rem;
+    
+  
+    
+  }
+  .packages .box-container .box
+  {
+    
+    
+    flex: 2 2 25rem;
+    border-radius:.5rem;
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+  }
+  
+  .packages .box-container .box img{
+    height: 10rem;
+    width:100%;
+    object-fit:cover;
+  }
+  .packages .box-container .box .content
+  {
+    padding:.9rem;
+  
+  }
+  .packages .box-container .box .content h3
+  {
+    font-size:1rem;
+    color:#333;
+  }
+  .packages .box-container .box .content h3 i{
+    size:10px;
+    color:rgb(228, 151, 8);
+  }
+  
+  .packages .box-container .box .content .stars i{
+    font-size:1rem;
+    color:rgb(228, 151, 8);
+  }
+  
+  .packages .box-container .box .content .price
+  {
+    font-size: 1rem;
+    color:#333;
+    padding-top: .5rem;
+  }
+  .packages .box-container .box .content .price span
+  {
+    color:#666;
+    font-size: 1.5rem;
+    text-decoration: line-through;
+  
+  
+  }
